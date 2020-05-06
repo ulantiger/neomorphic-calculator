@@ -1,0 +1,41 @@
+.neoBtn {
+    box-sizing: border-box;
+    margin: 6px auto;
+    border: 1px solid #1A1D31;
+    width: 64px;
+    height: 64px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+
+    //  _-----_
+    //  |     |
+    // -       -
+
+    cursor: pointer; 
+    outline: none; 
+    transition: 0.2s all;
+    background: #211f67;
+    box-shadow:  7px 7px 16px #171648, 
+                 -7px -7px 16px #2b2886
+    
+}
+                
+.neoBtn:active {
+    // -       -
+    //  |_____|
+    transform: scale(0.98);
+    box-shadow: inset 7px 7px 16px #171648, 
+    inset -7px -7px 16px #2b2886;
+    
+    //  |-___-|
+    //  |     |
+    // -       -
+    // border-radius: 20px;
+    // background: #211f67;
+    // box-shadow: inset 7px 7px 16px #171648, 
+    //             inset -7px -7px 16px #2b2886;
+
+}

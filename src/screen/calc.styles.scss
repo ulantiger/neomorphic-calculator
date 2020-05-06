@@ -1,0 +1,19 @@
+.main{
+    width: 375px;
+    height: 580px;
+    // background: #111320;
+    background: #211f67;
+    padding: 0;
+    margin: 40px auto;
+    border-radius: 20px;
+  }
+.calc{
+    margin: 0;
+    padding: 0;
+  }
+
+  .knobs{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }

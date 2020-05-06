@@ -1,0 +1,18 @@
+.display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+    width: 335px;
+    height: 80px;
+    font-size: 38px;
+    color: white;
+    padding: 10px;
+    border-radius: 17px;
+    background: #211f67;
+    box-shadow: inset 7px 7px 16px #171648, 
+                inset -7px -7px 16px #2b2886;
+    overflow: hidden;
+
+}
